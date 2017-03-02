@@ -1,0 +1,16 @@
+.wrapper-green {
+  background-color: #449d44;
+}
+
+.wrapper-black {
+  background-color: #383131;
+  padding: 40px;
+}
+
+.wrapper.relative {
+  position: relative;
+}
+
+.wrapper-lightgrey {
+  background-color: #fafafa;
+}

@@ -1,0 +1,115 @@
+.banner {
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+
+.banner.center {
+  text-align: center;
+}
+
+.banner.fixed-position {
+  border-left: 300px solid transparent;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin-top: 92px;
+}
+
+.banner-content {
+  color: #fafafa;
+  h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  }
+  p {
+    font-size: 25px;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 50px;
+  }
+}
+
+.margin-between-banner-content {
+  margin: 20px;
+}
+
+@media all and (max-width: 500px) {
+  .margin-between-banner-content {
+    margin: 0;
+  }
+}
+
+.left-half {
+  background-color: #fafafa;
+  width: 30%;
+  position: absolute;
+  left: 0px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 200px;
+}
+
+@media all and (max-width: 800px) {
+  .left-half {
+    background-position-x: 0px;
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 800px) {
+  .left-half {
+    background-position-x: 0px;
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .left-half {
+    background-position-x: 0px;
+    width: 0px;
+  }
+}
+
+.right-half {
+  background-image: url("css/images/coast.jpg");
+  /*width: 70%;*/
+  /*position: absolute;*/
+  right: 0px;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 250px;
+}
+
+/* Small screens */
+@media all and (max-width: 800px) {
+  .right-half {
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 0;
+  }
+}
+
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .right-half {
+    width: 100%;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-left: 0;
+    padding: 20px;
+  }
+}
+
+
+

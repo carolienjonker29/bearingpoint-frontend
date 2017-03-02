@@ -1,0 +1,40 @@
+.footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons{
+  margin: 10px;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-footer {
+  border-radius: 50%;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.copywright {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media all and (max-width: 800px) {
+  .footer {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+  }
+}

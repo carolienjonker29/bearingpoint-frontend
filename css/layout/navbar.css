@@ -1,0 +1,51 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 0;
+    border: 0;
+    border-bottom: solid 1px lightgrey;
+}
+
+.navbar-item {
+  color: black;
+  text-transform: uppercase;
+  padding: 16px;
+  float: right;
+}
+
+.icon-navbar {
+  float: left;
+  max-height: 50px;
+}
+
+a.navbar-item {
+  text-decoration: none;
+}
+
+@media all and (max-width: 800px) {
+  .container.ipad {
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .navbar-item {
+    float: none;
+    padding: 0px;
+    width: 10%;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .icon-navbar {
+    width: 50%;
+  }
+}

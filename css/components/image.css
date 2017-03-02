@@ -1,0 +1,22 @@
+.item-2 img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.item-2 {
+  position: relative;
+}
+
+@media all and (max-width: 500px) {
+  .item-2 img {
+    height: 0;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .item-2 {
+    height: 0;
+  }
+}

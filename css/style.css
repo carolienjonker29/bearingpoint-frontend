@@ -1,0 +1,25 @@
+/* style.css */
+/* --- Import Google Fonts stylesheets --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Import Components stylesheets --- */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/image.css");
+@import url("components/wrapper.css");
+@import url("layout/footer.css");
+@import url("layout/navbar.css");
+@import url("layout/utilities.css");
+
+/* --- Fonts --- */
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+h1, h2, h3, h4, h6 {
+  font-family: "Montserrat", "sans-serif";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
